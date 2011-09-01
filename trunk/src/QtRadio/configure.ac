@@ -15,6 +15,11 @@ AM_INIT_AUTOMAKE([foreign -Wall])
 AC_LANG([C++])
 AC_PROG_CXX
 
+# Qt, but only 4
+AC_PATH_PROGS(QMAKE, [qmake-qt4 qmake])
+AC_PATH_PROGS(MOC, [moc-qt4 qmake])
+
+
 # If you need to create a library, USE libtool:
 AC_PROG_LIBTOOL
 
