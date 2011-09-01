@@ -1,0 +1,8 @@
+build:
+libqt4-opengl-dev
+glutg3-dev
+libusb-0.1-4
+libfftw3-dev
+portaudio19-dev
+libpulse-dev
+libusb-0.1-4
